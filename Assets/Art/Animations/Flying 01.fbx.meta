@@ -1,11 +1,11 @@
 fileFormatVersion: 2
 guid: c08bd84785e9849a68c10e40ab067797
 ModelImporter:
-  serializedVersion: 19301
+  serializedVersion: 20200
   internalIDToNameTable:
   - first:
       74: -203655887218126122
-    second: Glide
+    second: Flying 01
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -35,7 +35,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Glide
+      name: Flying 01
       takeName: mixamo.com
       internalID: 0
       firstFrame: 0
@@ -81,6 +81,7 @@ ModelImporter:
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
     skinWeightsMode: 0
     maxBonesPerVertex: 4
@@ -90,6 +91,9 @@ ModelImporter:
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
@@ -595,14 +599,12 @@ ModelImporter:
     - name: mixamorig1:Spine1
       parentName: mixamorig1:Spine
       position: {x: -0, y: 0.114201374, z: -3.0602545e-10}
-      rotation: {x: -0.000000011175871, y: -0.0000000056905742, z: -0.0000000014241087,
-        w: 1}
+      rotation: {x: -0.000000011175871, y: -0.0000000056905742, z: -0.0000000014241087, w: 1}
       scale: {x: 1, y: 0.9999999, z: 1}
     - name: mixamorig1:Spine2
       parentName: mixamorig1:Spine1
       position: {x: -0, y: 0.13051577, z: 3.506162e-10}
-      rotation: {x: -0.000000014901161, y: 0.0000000023318996, z: 0.0000000022988211,
-        w: 1}
+      rotation: {x: -0.000000014901161, y: 0.0000000023318996, z: 0.0000000022988211, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig1:Neck
       parentName: mixamorig1:Spine2
@@ -612,8 +614,7 @@ ModelImporter:
     - name: mixamorig1:Head
       parentName: mixamorig1:Neck
       position: {x: -0, y: 0.067201994, z: 0.019721568}
-      rotation: {x: -0.000000023283064, y: 0.0000000021827873, z: -5.0821977e-17,
-        w: 1}
+      rotation: {x: -0.000000023283064, y: 0.0000000021827873, z: -5.0821977e-17, w: 1}
       scale: {x: 1, y: 1.0000001, z: 1.0000001}
     - name: mixamorig1:HeadTop_End
       parentName: mixamorig1:Head
@@ -877,6 +878,7 @@ ModelImporter:
   animationType: 3
   humanoidOversampling: 1
   avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

@@ -1,14 +1,14 @@
 fileFormatVersion: 2
 guid: 3cf12fb71694b44cd9c769ed1a42a25e
 ModelImporter:
-  serializedVersion: 26
+  serializedVersion: 20200
   internalIDToNameTable:
   - first:
       74: -203655887218126122
-    second: Loop
+    second: Idle 03
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -35,7 +35,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Loop
+      name: Idle 03
       takeName: mixamo.com
       internalID: -203655887218126122
       firstFrame: 0
@@ -75,11 +75,13 @@ ModelImporter:
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
     skinWeightsMode: 0
     maxBonesPerVertex: 4
@@ -89,6 +91,9 @@ ModelImporter:
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
@@ -101,7 +106,6 @@ ModelImporter:
     normalSmoothingSource: 0
   referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
     serializedVersion: 3
     human:
@@ -535,8 +539,7 @@ ModelImporter:
     - name: mixamorig_Hips
       parentName: Idle (1)(Clone)
       position: {x: -0.00059202884, y: 0.75428766, z: 0.0027667293}
-      rotation: {x: 0.0000000029103835, y: 0.000000002910383, z: -0.0000000010913936,
-        w: 1}
+      rotation: {x: 0.0000000029103835, y: 0.000000002910383, z: -0.0000000010913936, w: 1}
       scale: {x: 1, y: 1, z: 1.0000002}
     - name: mixamorig_LeftUpLeg
       parentName: mixamorig_Hips
@@ -601,8 +604,7 @@ ModelImporter:
     - name: mixamorig_Spine2
       parentName: mixamorig_Spine1
       position: {x: -7.372575e-20, y: 0.08834786, z: 8.957679e-12}
-      rotation: {x: -0.0000000018626451, y: -0.0000000028842926, z: -6.700499e-10,
-        w: 1}
+      rotation: {x: -0.0000000018626451, y: -0.0000000028842926, z: -6.700499e-10, w: 1}
       scale: {x: 0.99999994, y: 0.99999976, z: 0.99999976}
     - name: mixamorig_LeftShoulder
       parentName: mixamorig_Spine2
@@ -732,8 +734,7 @@ ModelImporter:
     - name: mixamorig_Head
       parentName: mixamorig_Neck
       position: {x: -8.2399364e-20, y: 0.09383087, z: 0.0073839184}
-      rotation: {x: 0.000000005587935, y: 0.000000003637978, z: -0.0000000023646867,
-        w: 1}
+      rotation: {x: 0.000000005587935, y: 0.000000003637978, z: -0.0000000023646867, w: 1}
       scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
     - name: mixamorig_HeadTop_End
       parentName: mixamorig_Head
@@ -873,8 +874,11 @@ ModelImporter:
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
